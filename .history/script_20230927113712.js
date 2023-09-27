@@ -225,24 +225,19 @@ cards.forEach(card => {
 });
 
 const sidebar = document.querySelector('.sidebar');
-    const container = document.querySelector('.container');
-    const openButton = document.querySelector('.open-sidebar');
-    const closeButton = document.querySelector('.close-sidebar');
-    const addButton = document.querySelector('.add-card-button');
+const container = document.querySelector('.container');
+const button = document.querySelector('.open-sidebar');
+const closeButton = document.querySelector('.close-sidebar');
 
-    openButton.addEventListener('click', function() {
-        sidebar.classList.add('open');
-        container.classList.add('blur');
-    });
+button.addEventListener('click', function() {
+  sidebar.classList.add('open');
+  container.classList.add('blur');
+});
 
-    closeButton.addEventListener('click', function() {
-        sidebar.classList.remove('open');
-        container.classList.remove('blur');
-    });
-
-    addButton.addEventListener('click', function() {
-        // Adicione aqui o código para adicionar um novo card
-    });
+closeButton.addEventListener('click', function() {
+  sidebar.classList.remove('open');
+  container.classList.remove('blur');
+});
 
 
 

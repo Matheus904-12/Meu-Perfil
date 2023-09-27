@@ -243,6 +243,7 @@ const sidebar = document.querySelector('.sidebar');
     addButton.addEventListener('click', function() {
         // Adicione aqui o código para adicionar um novo card
     });
+});
 
 
 

@@ -233,16 +233,21 @@ const sidebar = document.querySelector('.sidebar');
     openButton.addEventListener('click', function() {
         sidebar.classList.add('open');
         container.classList.add('blur');
+        openButton.style.display = 'none';
+        closeButton.style.display = 'block';
     });
 
     closeButton.addEventListener('click', function() {
         sidebar.classList.remove('open');
         container.classList.remove('blur');
+        closeButton.style.display = 'none';
+        openButton.style.display = 'block';
     });
 
     addButton.addEventListener('click', function() {
         // Adicione aqui o código para adicionar um novo card
     });
+});
 
 
 
