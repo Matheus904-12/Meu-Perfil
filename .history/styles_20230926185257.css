@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.repositories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.repository-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.repository-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.repository-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.repository-card p {
+    font-size: 0.9em;
+}
+
+.repository-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+

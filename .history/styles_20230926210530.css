@@ -1,0 +1,95 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: #000000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #00aa1a;
+}
+
+.repositories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.repository-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    color: #fff; /* Cor do texto ajustada */
+}
+
+.repository-card img {
+    border-radius: 10px 10px 0 0;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.repository-card h3 {
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.repository-card p {
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+.repository-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    background-color: 
+}

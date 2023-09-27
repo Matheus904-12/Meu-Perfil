@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="IMG_20230326_185729_968.jpg">
+    <title>Meu Perfil</title>
+</head>
+<body>
+    
+
+    <header>
+        <img src="IMG_20230326_185729_968.jpg" alt="Sua Foto de Perfil" class="profile-picture">
+        <h1>Matheus Lucindo</h1>
+        <p>Seja bem-vindo ao meu espaço no GitHub! Confira meus projetos abaixo.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/matheus-lucindo-b35b68190/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Matheus904-12" target="_blank">GitHub</a>
+        </div>
+    </header>
+
+    <section class="repositories">
+        <!-- Os repositórios serão carregados aqui via JavaScript -->
+    </section>
+
+    <button id="add-repository">Adicionar Repositório</button>
+
+    <div id="add-repository-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Adicionar Repositório</h2>
+            <form id="repository-form">
+                <label for="repo-image">URL da Imagem:</label>
+                <input type="text" id="repo-image" name="repo-image" required><br>
+
+                <label for="repo-title">Título:</label>
+                <input type="text" id="repo-title" name="repo-title" required><br>
+
+                <label for="repo-description">Legenda:</label>
+                <input type="text" id="repo-description" name="repo-description" required><br>
+
+                <label for="repo-link">Link do Repositório:</label>
+                <input type="text" id="repo-link" name="repo-link" required><br>
+
+                <input type="submit" value="Adicionar">
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

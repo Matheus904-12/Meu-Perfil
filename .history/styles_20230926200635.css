@@ -1,0 +1,117 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.theme-toggle {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ff6b6b;
+}
+
+.repositories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.repository-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.repository-card img {
+    border-radius: 10px 10px 0 0;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.repository-card h3 {
+    margin: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.repository-card p {
+    margin: 10px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.repository-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
